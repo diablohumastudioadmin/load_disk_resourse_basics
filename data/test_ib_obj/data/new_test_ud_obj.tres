@@ -1,7 +1,0 @@
-[gd_resource type="Resource" script_class="TestUdObj" load_steps=2 format=3 uid="uid://dik52vyhq848y"]
-
-[ext_resource type="Script" uid="uid://bhavemoo7u4ga" path="res://data/test_ib_obj/model/test_ud_ob.gd" id="1_uukuc"]
-
-[resource]
-script = ExtResource("1_uukuc")
-metadata/_custom_type_script = "uid://bhavemoo7u4ga"

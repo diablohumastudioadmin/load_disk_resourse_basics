@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="DeepRes" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://data/deep/deep_nested.gd" id="1_deep"]
+[ext_resource type="Resource" path="res://data/deeper/data/deeper_1.tres" id="2_deeper"]
+
+[resource]
+script = ExtResource("1_deep")
+text = "Deep Resource 1"
+deeper_array = [ExtResource("2_deeper")]
