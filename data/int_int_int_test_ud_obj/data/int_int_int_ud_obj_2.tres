@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="IntIntIntTestUdObj" load_steps=2 format=3 uid="uid://bkhrxalmh5lhc"]
+
+[ext_resource type="Script" uid="uid://oaf46ihbc4pq" path="res://data/int_int_int_test_ud_obj/model/int_int_int_test_ud_obj.gd" id="1_p7jsu"]
+
+[resource]
+script = ExtResource("1_p7jsu")
+level_name = "lvl 2 true dfult"
+my_bool_var = true
+metadata/_custom_type_script = "uid://oaf46ihbc4pq"

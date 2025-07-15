@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="InternalInternalTestUdObj" load_steps=5 format=3 uid="uid://b7fvkar36a4td"]
+
+[ext_resource type="Script" uid="uid://bwvltn4ikbgbp" path="res://data/internal_internal_test_ud_obj/model/internal_internal_test_ud_obj.gd" id="1_6udb2"]
+[ext_resource type="Script" uid="uid://oaf46ihbc4pq" path="res://data/int_int_int_test_ud_obj/model/int_int_int_test_ud_obj.gd" id="1_qy1tn"]
+[ext_resource type="Resource" uid="uid://bqsgkdeaus16d" path="res://data/int_int_int_test_ud_obj/data/int_int_int_ud_obj_1.tres" id="2_ckb36"]
+[ext_resource type="Resource" uid="uid://bkhrxalmh5lhc" path="res://data/int_int_int_test_ud_obj/data/int_int_int_ud_obj_2.tres" id="3_j5sfi"]
+
+[resource]
+script = ExtResource("1_6udb2")
+int_int_simple_string = "yiello uorld"
+int_int_int_array = Array[ExtResource("1_qy1tn")]([ExtResource("2_ckb36"), ExtResource("3_j5sfi")])
+metadata/_custom_type_script = "uid://bwvltn4ikbgbp"

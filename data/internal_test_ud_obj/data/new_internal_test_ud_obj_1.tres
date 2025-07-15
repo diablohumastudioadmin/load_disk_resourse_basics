@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="InternalTestUdObj" load_steps=4 format=3 uid="uid://c2daqb412g6a4"]
+
+[ext_resource type="Script" uid="uid://bwvltn4ikbgbp" path="res://data/internal_internal_test_ud_obj/model/internal_internal_test_ud_obj.gd" id="1_g0qbh"]
+[ext_resource type="Script" uid="uid://c38jr05hv17em" path="res://data/internal_test_ud_obj/model/internal_test_ud_obj.gd" id="1_n4f8r"]
+[ext_resource type="Resource" uid="uid://b7fvkar36a4td" path="res://data/internal_internal_test_ud_obj/data/int_int_r_ud_obj_1.tres" id="2_s1owd"]
+
+[resource]
+script = ExtResource("1_n4f8r")
+name = "obj1"
+int_simple_int = 4
+int_simple_array = ["hello", "world"]
+int_object_arrat = null
+int_object_editor_arrar = Array[ExtResource("1_g0qbh")]([ExtResource("2_s1owd"), ExtResource("2_s1owd")])
+metadata/_custom_type_script = "uid://c38jr05hv17em"

@@ -1,0 +1,79 @@
+[gd_scene load_steps=2 format=3 uid="uid://bffedxqtyi6ev"]
+
+[ext_resource type="Script" uid="uid://0lsh7kmjmuxa" path="res://screens/menu_1/menu_1.gd" id="1_kxfcb"]
+
+[node name="TestScene" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_kxfcb")
+
+[node name="ChangeUdObjStringBtn" type="Button" parent="."]
+layout_mode = 0
+offset_left = 160.0
+offset_top = 110.0
+offset_right = 480.0
+offset_bottom = 187.0
+scale = Vector2(1.98885, 1.98885)
+theme_override_font_sizes/font_size = 50
+text = "change ud_obj"
+
+[node name="NewUdObjString" type="TextEdit" parent="ChangeUdObjStringBtn"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 69.387
+offset_top = 100.561
+offset_right = 228.387
+offset_bottom = 176.561
+
+[node name="SaveUdObjBtn" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1121.0
+offset_top = 281.0
+offset_right = 1379.0
+offset_bottom = 405.0
+scale = Vector2(1.98885, 1.98885)
+theme_override_font_sizes/font_size = 50
+text = "Save res_1"
+
+[node name="PrintUdObjStringBtn" type="Button" parent="."]
+layout_mode = 0
+offset_left = 282.0
+offset_top = 697.0
+offset_right = 651.0
+offset_bottom = 809.0
+theme_override_font_sizes/font_size = 40
+text = "Print res_1.my_var"
+
+[node name="PrintUdObjStringLabel" type="Label" parent="PrintUdObjStringBtn"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 78.0
+offset_top = 154.0
+offset_right = 303.0
+offset_bottom = 203.0
+theme_override_font_sizes/font_size = 35
+text = "Placeholder"
+
+[node name="GotoMenu2Btn" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1567.0
+offset_top = 901.0
+offset_right = 1842.0
+offset_bottom = 999.0
+theme_override_font_sizes/font_size = 35
+text = "Go to Menu 2"
+
+[node name="LoadUdObjBtn" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1139.0
+offset_top = 591.0
+offset_right = 1311.0
+offset_bottom = 700.0
+theme_override_font_sizes/font_size = 35
+text = "Load Res"
+
+[connection signal="pressed" from="ChangeUdObjStringBtn" to="." method="_on_change_ud_obj_string_btn_pressed"]
+[connection signal="pressed" from="SaveUdObjBtn" to="." method="_on_save_ud_obj_btn_pressed"]
+[connection signal="pressed" from="PrintUdObjStringBtn" to="." method="_on_print_ud_obj_string_btn_pressed"]
+[connection signal="pressed" from="GotoMenu2Btn" to="." method="_on_goto_menu_2_btn_pressed"]
+[connection signal="pressed" from="LoadUdObjBtn" to="." method="_on_load_ud_obj_btn_pressed"]

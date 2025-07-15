@@ -1,0 +1,33 @@
+[gd_scene load_steps=2 format=3 uid="uid://dsw83kw41tsw4"]
+
+[ext_resource type="Script" uid="uid://citg7r8cc3l81" path="res://screens/menu_2/menu_2.gd" id="1_h6wbc"]
+
+[node name="Menu2" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_h6wbc")
+
+[node name="PrintRes1MyVarBtn" type="Button" parent="."]
+layout_mode = 0
+offset_left = 187.0
+offset_top = 165.0
+offset_right = 291.0
+offset_bottom = 233.0
+theme_override_font_sizes/font_size = 50
+text = "Print Res1.my_var"
+
+[node name="PrintRes1MyVarLabel" type="Label" parent="PrintRes1MyVarBtn"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 2.0
+offset_top = 97.0
+offset_right = 102.0
+offset_bottom = 150.0
+theme_override_font_sizes/font_size = 50
+text = "Placeholder"
+
+[connection signal="pressed" from="PrintRes1MyVarBtn" to="." method="_on_print_res_1_my_var_btn_pressed"]

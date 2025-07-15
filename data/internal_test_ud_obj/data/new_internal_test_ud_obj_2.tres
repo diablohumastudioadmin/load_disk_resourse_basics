@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="InternalTestUdObj" load_steps=2 format=3 uid="uid://bpwo2u667pvyq"]
+
+[ext_resource type="Script" uid="uid://c38jr05hv17em" path="res://data/internal_test_ud_obj/model/internal_test_ud_obj.gd" id="1_2ouej"]
+
+[resource]
+script = ExtResource("1_2ouej")
+name = "obj2"
+metadata/_custom_type_script = "uid://c38jr05hv17em"
